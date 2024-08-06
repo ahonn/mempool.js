@@ -56,6 +56,13 @@ export const useTransactions = (api: AxiosInstance): TxInstance => {
     return data;
   };
 
+  const getTransactionTimes = async (params: { txids: string[] }) => {
+    const { data } = await api.get<Array<number>>(
+      `/transaction-times`, { params }
+    );
+    return data;
+  };
+
   const postTx = async (params: { txhex: string }) => {
     const { data } = await api.post<string>(`/tx`, params.txhex );
     return data;
@@ -70,6 +77,7 @@ export const useTransactions = (api: AxiosInstance): TxInstance => {
     getTxMerkleProof,
     getTxOutspend,
     getTxOutspends,
+    getTransactionTimes,
     postTx,
   };
 };
