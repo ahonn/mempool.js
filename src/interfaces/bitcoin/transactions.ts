@@ -58,6 +58,6 @@ export interface TxInstance {
     vout: number;
   }) => Promise<TxOutspend>;
   getTxOutspends: (params: { txid: string }) => Promise<Array<TxOutspend>>;
-  getTransactionTimes: (params: { txids: string[] }) => Promise<Array<number>>;
+  getTransactionTimes: (params: { txId: string[] }) => Promise<Array<number>>;
   postTx: (params: { txhex: string }) => Promise<unknown>;
 }
