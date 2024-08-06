@@ -58,7 +58,7 @@ export const useTransactions = (api: AxiosInstance): TxInstance => {
 
   const getTransactionTimes = async (params: { txids: string[] }) => {
     const { data } = await api.get<Array<number>>(
-      `/transaction-times`, { params }
+      `/v1/transaction-times`, { params }
     );
     return data;
   };
