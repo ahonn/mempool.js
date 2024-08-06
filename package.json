@@ -1,6 +1,6 @@
 {
   "name": "@cell-studio/mempool.js",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "description": "NPM package module for Mempool APIs.",
   "main": "lib/index.js",
   "keywords": [

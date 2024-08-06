@@ -17,6 +17,7 @@
     },
     "nodejs@latest": {
       "last_modified": "2024-04-19T21:36:04Z",
+      "plugin_version": "0.0.2",
       "resolved": "github:NixOS/nixpkgs/92d295f588631b0db2da509f381b4fb1e74173c5#nodejs_21",
       "source": "devbox-search",
       "version": "21.7.3",
@@ -32,6 +33,54 @@
         },
         "x86_64-linux": {
           "store_path": "/nix/store/dfs59hwhc4mb4hdk77nc5dd39k2v2qs2-nodejs-21.7.3"
+        }
+      }
+    },
+    "yarn@latest": {
+      "last_modified": "2024-07-10T06:55:44Z",
+      "resolved": "github:NixOS/nixpkgs/aa9461550594533c29866d42f861b6ff079a7fb6#yarn",
+      "source": "devbox-search",
+      "version": "1.22.22",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/bm65qc23mr8qw138j4mmykwdizv329bi-yarn-1.22.22",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/bm65qc23mr8qw138j4mmykwdizv329bi-yarn-1.22.22"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7fjgxhv237bv4r6pcdlh7a41gcfvwbn5-yarn-1.22.22",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/7fjgxhv237bv4r6pcdlh7a41gcfvwbn5-yarn-1.22.22"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zs3ychnnq3g6zpmsq6y96kbam0xxx18h-yarn-1.22.22",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/zs3ychnnq3g6zpmsq6y96kbam0xxx18h-yarn-1.22.22"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/haab93gw30andk2jlarvbf51r9m7plj7-yarn-1.22.22",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/haab93gw30andk2jlarvbf51r9m7plj7-yarn-1.22.22"
         }
       }
     }
